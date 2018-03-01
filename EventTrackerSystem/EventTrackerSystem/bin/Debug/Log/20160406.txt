@@ -1,0 +1,301 @@
+09:07:21.266 - Application Start within MainWindow
+09:07:24.566 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:18:26.902 - Application Start within MainWindow
+09:18:28.483 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:22:50.885 - Application Start within MainWindow
+09:22:54.012 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:23:00.018 - Application Start within MainWindow
+09:25:18.665 - Application Start within MainWindow
+09:25:20.396 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:28:18.512 - Application Start within MainWindow
+09:28:20.828 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:28:26.841 - Application Start within MainWindow
+09:29:17.278 - Application Start within MainWindow
+09:29:19.181 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:29:25.195 - Application Start within MainWindow
+09:30:15.928 - Application Start within MainWindow
+09:30:17.107 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:30:23.121 - Application Start within MainWindow
+09:31:46.138 - Application Start within MainWindow
+09:31:47.420 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:33:15.681 - Application Start within MainWindow
+09:33:18.671 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:35:29.850 - Application Start within MainWindow
+09:35:31.505 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:35:37.518 - Application Start within MainWindow
+09:36:42.362 - Application Start within MainWindow
+09:36:43.844 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:43:12.877 - Application Start within MainWindow
+09:43:14.124 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:43:20.130 - Application Start within MainWindow
+09:45:01.441 - Application Start within MainWindow
+09:45:03.119 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:45:09.120 - Application Start within MainWindow
+09:52:11.668 - Application Start within MainWindow
+09:52:13.882 - EventTrackerSystem.MainWindow-Register_Button Clicked
+09:56:23.421 - Application Start within MainWindow
+09:56:23.486 - Application Start within Menu
+09:56:32.863 - EventTrackerSystem.Menu-Register_Button Clicked
+09:58:55.869 - Application Start within MainWindow
+09:58:55.937 - Application Start within Menu
+09:58:57.598 - EventTrackerSystem.Menu-Register_Button Clicked
+10:00:59.663 - Application Start within MainWindow
+10:00:59.728 - Application Start within Menu
+10:01:01.957 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:04:00.272 - Application Start within MainWindow
+10:04:00.335 - Application Start within Menu
+10:04:11.223 - EventTrackerSystem.Menu-Register_Button Clicked
+10:04:17.219 - Application Start within MainWindow
+10:04:17.223 - Application Start within Menu
+10:05:17.827 - Application Start within MainWindow
+10:05:17.891 - Application Start within Menu
+10:05:27.564 - EventTrackerSystem.Menu-Register_Button Clicked
+10:05:33.570 - Application Start within MainWindow
+10:05:33.573 - Application Start within Menu
+10:06:15.896 - Application Start within MainWindow
+10:06:15.961 - Application Start within Menu
+10:06:18.220 - EventTrackerSystem.Menu-Register_Button Clicked
+10:06:24.239 - Application Start within MainWindow
+10:06:24.244 - Application Start within Menu
+10:06:57.477 - Application Start within MainWindow
+10:06:57.538 - Application Start within Menu
+10:06:59.760 - EventTrackerSystem.Menu-Register_Button Clicked
+10:07:05.768 - Application Start within Menu
+10:08:25.910 - Application Start within MainWindow
+10:08:25.946 - Application Start within Menu
+10:08:54.842 - Application Start within MainWindow
+10:08:54.875 - Application Start within Menu
+10:08:54.992 - Application Start within Menu
+10:08:58.447 - EventTrackerSystem.Menu-Register_Button Clicked
+10:09:24.185 - Application Start within MainWindow
+10:09:24.215 - Application Start within Menu
+10:09:24.330 - Application Start within Menu
+10:09:25.278 - EventTrackerSystem.Menu-Register_Button Clicked
+10:09:31.283 - Application Start within Menu
+10:10:24.217 - Application Start within MainWindow
+10:10:24.254 - Application Start within Menu
+10:10:24.368 - Application Start within MainWindow
+10:10:24.371 - Application Start within Menu
+10:11:09.170 - Application Start within MainWindow
+10:11:09.204 - Application Start within Menu
+10:11:09.208 - Application Start within Menu
+10:11:11.306 - EventTrackerSystem.Menu-Register_Button Clicked
+10:18:48.397 - Application Start within MainWindow
+10:18:48.426 - Application Start within Menu
+10:18:48.517 - Application Start within Menu
+10:18:49.749 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:18:49.757 - EventTrackerSystem.CheckIn- InitializeComponent
+10:18:55.835 - Application Start within Menu
+10:22:48.911 - EventTrackerSystem.Menu-Register_Button Clicked
+10:23:22.138 - EventTrackerSystem.Info_Submit-Next_buttonClicked
+10:23:22.138 - EventTrackerSystem.Info_Submit- The fields have data
+10:23:22.162 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+10:23:22.162 - Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161006042322,first_name-Boniface,last_name-Omwami,email_address-jacob,phone_number-0712234598,company_anme-
+10:23:22.389 - In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+10:23:22.390 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+10:23:22.392 - EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+10:23:22.458 - EventTrackerSystem.Take_Photo- InitializeComponent
+10:23:31.941 - Application Start within Menu
+10:25:54.929 - Application Start within MainWindow
+10:25:54.961 - Application Start within Menu
+10:25:55.060 - Application Start within Menu
+10:25:56.548 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:25:56.561 - EventTrackerSystem.CheckIn- InitializeComponent
+10:26:10.531 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:26:10.556 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:26:10.665 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+10:26:10.669 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:26:10.670 - EventTrackerSystem.CheckIn- attendees has data
+10:26:10.671 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:26:10.673 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+10:26:10.674 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:27:26.958 - Application Start within MainWindow
+10:27:26.986 - Application Start within Menu
+10:27:27.085 - Application Start within Menu
+10:27:28.521 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:27:28.528 - EventTrackerSystem.CheckIn- InitializeComponent
+10:27:50.222 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:27:50.245 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:27:50.355 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+10:27:50.359 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:27:50.360 - EventTrackerSystem.CheckIn- attendees has data
+10:27:50.361 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:27:50.363 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+10:27:50.364 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:31:24.822 - Application Start within MainWindow
+10:31:24.858 - Application Start within Menu
+10:31:24.986 - Application Start within Menu
+10:31:26.075 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:31:26.085 - EventTrackerSystem.CheckIn- InitializeComponent
+10:31:36.235 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:31:36.259 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:31:36.369 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+10:31:36.373 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:31:36.373 - EventTrackerSystem.CheckIn- attendees has data
+10:31:36.375 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:31:36.377 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+10:31:36.377 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:31:36.457 - EventTrackerSystem.CheckIn-Exception:Object reference not set to an instance of an object.
+StackTrace:   at EventTrackerSystem.CheckIn.button1_Click(Object sender, RoutedEventArgs e)
+10:31:41.924 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:31:41.926 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:31:41.928 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn Success!
+10:31:41.929 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:31:41.929 - EventTrackerSystem.CheckIn-Check in Successful!
+10:33:00.532 - Application Start within MainWindow
+10:33:00.561 - Application Start within Menu
+10:33:00.661 - Application Start within Menu
+10:33:01.849 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:33:01.858 - EventTrackerSystem.CheckIn- InitializeComponent
+10:33:15.124 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:33:15.149 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:33:15.261 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+10:33:15.265 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:33:15.266 - EventTrackerSystem.CheckIn- attendees has data
+10:33:15.267 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:33:15.269 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+10:33:15.270 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:33:15.351 - EventTrackerSystem.CheckIn-Exception:Object reference not set to an instance of an object.
+StackTrace:   at EventTrackerSystem.CheckIn.button1_Click(Object sender, RoutedEventArgs e)
+10:33:18.005 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:33:18.006 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:33:18.383 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Duplicate entry '161006042322' for key 'uid'
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckIn(String uid)
+10:33:18.384 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:33:18.384 - EventTrackerSystem.CheckIn- Check in Failed!
+10:33:30.227 - EventTrackerSystem.CheckIn- InitializeComponent
+10:33:47.665 - Application Start within MainWindow
+10:33:47.692 - Application Start within Menu
+10:33:47.788 - Application Start within Menu
+10:33:48.908 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:33:48.916 - EventTrackerSystem.CheckIn- InitializeComponent
+10:33:51.763 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:33:51.786 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:33:51.897 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+10:33:51.901 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:33:51.901 - EventTrackerSystem.CheckIn- attendees has data
+10:33:51.903 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:33:51.905 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+10:33:51.905 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:33:51.990 - EventTrackerSystem.CheckIn-Exception:Object reference not set to an instance of an object.
+StackTrace:   at EventTrackerSystem.CheckIn.button1_Click(Object sender, RoutedEventArgs e)
+10:33:53.299 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:33:53.300 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:33:53.686 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Duplicate entry '161006042322' for key 'uid'
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckIn(String uid)
+10:33:53.687 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:33:53.687 - EventTrackerSystem.CheckIn- Check in Failed!
+10:34:22.151 - Application Start within MainWindow
+10:34:22.180 - Application Start within Menu
+10:34:22.301 - Application Start within Menu
+10:34:23.669 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:34:23.677 - EventTrackerSystem.CheckIn- InitializeComponent
+10:34:30.472 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:34:30.496 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:34:30.614 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+10:34:30.627 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+10:34:30.628 - EventTrackerSystem.CheckIn- attendees has data
+10:34:30.631 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:34:30.633 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+10:34:30.634 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+10:34:30.717 - EventTrackerSystem.CheckIn-Exception:Object reference not set to an instance of an object.
+StackTrace:   at EventTrackerSystem.CheckIn.button1_Click(Object sender, RoutedEventArgs e)
+10:34:31.966 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:34:31.967 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:34:32.355 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Duplicate entry '161006042322' for key 'uid'
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckIn(String uid)
+10:34:32.356 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+10:34:32.356 - EventTrackerSystem.CheckIn- Check in Failed!
+10:34:33.850 - Application Start within Menu
+11:36:19.106 - Application Start within MainWindow
+11:36:19.133 - Application Start within Menu
+11:36:19.216 - Application Start within Menu
+11:36:20.518 - EventTrackerSystem.Menu-ViewReports_Button Clicked
+11:37:40.417 - Application Start within MainWindow
+11:37:40.440 - Application Start within Menu
+11:37:40.516 - Application Start within Menu
+11:37:41.496 - EventTrackerSystem.Menu-ViewReports_Button Clicked
+11:39:16.862 - Application Start within MainWindow
+11:39:16.886 - Application Start within Menu
+11:39:16.965 - Application Start within Menu
+11:39:17.861 - EventTrackerSystem.Menu-ViewReports_Button Clicked
+11:39:28.133 - EventTrackerSystem.Menu-Register_Button Clicked
+11:39:30.225 - Application Start within Menu
+11:39:31.477 - EventTrackerSystem.Menu-Checkin_Button Clicked
+11:39:31.483 - EventTrackerSystem.CheckIn- InitializeComponent
+11:39:32.746 - Application Start within Menu
+11:39:35.730 - EventTrackerSystem.Menu-Checkin_Button Clicked
+11:39:35.732 - EventTrackerSystem.CheckIn- InitializeComponent
+11:39:37.373 - Application Start within Menu
+11:53:24.575 - Application Start within MainWindow
+11:53:24.600 - Application Start within Menu
+11:53:24.677 - Application Start within Menu
+11:53:25.704 - EventTrackerSystem.Menu-Register_Button Clicked
+11:54:29.477 - Application Start within Menu
+11:56:10.532 - EventTrackerSystem.Menu-Register_Button Clicked
+11:57:10.800 - EventTrackerSystem.Info_Submit-Next_buttonClicked
+11:57:10.800 - EventTrackerSystem.Info_Submit- The fields have data
+11:57:10.822 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+11:57:10.822 - Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161106045710,first_name-Mathayo,last_name-Francisca,email_address-mathayo,phone_number-071217890,company_anme-
+11:57:10.954 - In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+11:57:10.955 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+11:57:10.956 - EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+11:57:11.017 - EventTrackerSystem.Take_Photo- InitializeComponent
+11:57:27.315 - EventTrackerSystem.Take_Photo-Finish_buttonClicked
+11:57:27.316 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+11:57:27.318 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+11:57:27.343 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+11:57:27.344 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+11:57:27.702 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Column 'picture_data' cannot be null
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata)
+11:57:27.703 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+11:57:27.703 - EventTrackerSystem.Take_Photo- SavePicture return false, a message must be shown
+11:57:34.760 - EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+11:57:34.842 - Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+11:57:38.696 - EventTrackerSystem.Take_Photo-Finish_buttonClicked
+11:57:38.697 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+11:57:38.698 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+11:57:38.699 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+11:57:38.699 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+11:57:38.723 - In function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture Success!
+11:57:38.724 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+11:57:38.724 - EventTrackerSystem.Take_Photo- SavePicture return true, navigate to the next page
+11:57:38.728 - EventTrackerSystem.Notification- InitializeComponent
+11:57:38.729 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+11:57:38.730 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails Success!
+11:57:38.732 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+11:57:38.732 - EventTrackerSystem.Notification- attendees has data
+11:57:38.733 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+11:57:38.735 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+11:57:38.736 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+12:05:50.727 - Application Start within MainWindow
+12:05:50.759 - Application Start within Menu
+12:05:50.845 - Application Start within Menu

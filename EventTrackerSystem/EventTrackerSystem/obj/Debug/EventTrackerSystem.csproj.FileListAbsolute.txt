@@ -1,0 +1,63 @@
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\EventTrackerSystem.exe.config
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\EventTrackerSystem.exe
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\EventTrackerSystem.pdb
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Utilities.dll
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Types.dll
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.xml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Utilities.xml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Types.xml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.csprojResolveAssemblyReference.cache
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\MainWindow.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\MainWindow.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\App.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem_MarkupCompile.cache
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.g.resources
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.Properties.Resources.resources
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.csproj.GenerateResource.Cache
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.exe
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.pdb
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Take_Photo.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Take_Photo.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\CheckIn.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Info_Submit.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Notification.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Reports.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\CheckIn.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Info_Submit.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Notification.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Reports.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\EventTrackerSystem.exe.config
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.exe
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.pdb
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\EventTrackerSystem.exe
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\EventTrackerSystem.pdb
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Utilities.dll
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Types.dll
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.xml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Utilities.xml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\bin\Debug\Microsoft.Expression.Encoder.Types.xml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.csprojResolveAssemblyReference.cache
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\CheckIn.baml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Info_Submit.baml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\MainWindow.baml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Notification.baml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Reports.baml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Take_Photo.baml
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\CheckIn.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Info_Submit.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\MainWindow.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Notification.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Reports.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\Take_Photo.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\App.g.cs
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem_MarkupCompile.cache
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.g.resources
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.Properties.Resources.resources
+D:\Work\2016\March\Event Management\EventTrackerSystem\EventTrackerSystem\obj\Debug\EventTrackerSystem.csproj.GenerateResource.Cache
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Menu.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Menu.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\App.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Popup.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\Popup.g.cs
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\CheckOut.baml
+D:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\obj\Debug\CheckOut.g.cs

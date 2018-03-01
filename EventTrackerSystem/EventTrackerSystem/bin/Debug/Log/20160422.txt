@@ -1,0 +1,194 @@
+11:53:48.292 - Application Start within MainWindow
+11:53:48.354 - Application Start within Menu
+11:53:48.540 - Application Start within Menu
+12:07:51.551 - Application Start within MainWindow
+12:07:51.576 - Application Start within Menu
+12:07:51.645 - Application Start within Menu
+12:08:14.901 - Application Start within MainWindow
+12:08:14.943 - Application Start within Menu
+12:08:15.014 - Application Start within Menu
+12:08:39.750 - Application Start within MainWindow
+12:08:39.772 - Application Start within Menu
+12:08:39.863 - Application Start within Menu
+12:09:17.652 - Application Start within MainWindow
+12:09:17.676 - Application Start within Menu
+12:09:17.750 - Application Start within Menu
+12:09:19.880 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:09:19.945 - EventTrackerSystem.CheckOut- InitializeComponent
+12:09:23.044 - Application Start within Menu
+12:09:36.681 - Application Start within MainWindow
+12:09:36.703 - Application Start within Menu
+12:09:36.775 - Application Start within Menu
+12:09:37.647 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:09:37.663 - EventTrackerSystem.CheckOut- InitializeComponent
+12:09:41.462 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:09:41.462 - EventTrackerSystem.CheckOut- No UID!
+12:09:41.464 - Application Start within Menu
+12:11:07.365 - Application Start within MainWindow
+12:11:07.394 - Application Start within Menu
+12:11:07.488 - Application Start within Menu
+12:11:08.359 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:11:08.374 - EventTrackerSystem.CheckOut- InitializeComponent
+12:11:09.519 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:11:09.522 - EventTrackerSystem.Popup- InitializeComponent
+12:11:09.531 - EventTrackerSystem.CheckOut- No UID!
+12:11:47.793 - Application Start within MainWindow
+12:11:47.818 - Application Start within Menu
+12:11:47.895 - Application Start within Menu
+12:11:49.107 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:11:49.123 - EventTrackerSystem.CheckOut- InitializeComponent
+12:11:50.080 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:11:50.083 - EventTrackerSystem.Popup- InitializeComponent
+12:11:50.092 - EventTrackerSystem.CheckOut- No UID!
+12:11:53.261 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:11:53.263 - EventTrackerSystem.Popup- InitializeComponent
+12:11:53.269 - EventTrackerSystem.CheckOut- No UID!
+12:12:22.249 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:12:22.269 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:12:22.740 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `checkin_id`='161105045358'' at line 1
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckOut(String uid)
+12:12:22.740 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:12:22.742 - EventTrackerSystem.CheckOut- Check Out Failed!
+12:12:22.743 - EventTrackerSystem.Popup- InitializeComponent
+12:12:38.622 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:12:38.623 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:12:38.940 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `checkin_id`='161105045358'' at line 1
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckOut(String uid)
+12:12:38.940 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:12:38.941 - EventTrackerSystem.CheckOut- Check Out Failed!
+12:12:38.944 - EventTrackerSystem.Popup- InitializeComponent
+12:13:48.029 - Application Start within MainWindow
+12:13:48.056 - Application Start within Menu
+12:13:48.145 - Application Start within Menu
+12:13:48.974 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:13:48.993 - EventTrackerSystem.CheckOut- InitializeComponent
+12:13:57.686 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:13:57.708 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:13:57.894 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut Success!
+12:13:57.895 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:13:57.896 - EventTrackerSystem.CheckOut-Check Out Successful!
+12:13:57.899 - EventTrackerSystem.Popup- InitializeComponent
+12:13:57.908 - Application Start within Menu
+12:14:02.713 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:14:02.717 - EventTrackerSystem.CheckOut- InitializeComponent
+12:14:04.523 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:14:04.524 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:14:04.525 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut Success!
+12:14:04.525 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:14:04.526 - EventTrackerSystem.CheckOut-Check Out Successful!
+12:14:04.527 - EventTrackerSystem.Popup- InitializeComponent
+12:14:04.536 - Application Start within Menu
+12:14:22.790 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:14:22.792 - EventTrackerSystem.CheckOut- InitializeComponent
+12:14:24.390 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:14:24.394 - EventTrackerSystem.Popup- InitializeComponent
+12:14:24.412 - EventTrackerSystem.CheckOut- No UID!
+12:14:26.553 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:14:26.554 - EventTrackerSystem.Popup- InitializeComponent
+12:14:26.562 - EventTrackerSystem.CheckOut- No UID!
+12:14:30.984 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:14:30.985 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:14:30.986 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut Success!
+12:14:30.986 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:14:30.987 - EventTrackerSystem.CheckOut-Check Out Successful!
+12:14:30.988 - EventTrackerSystem.Popup- InitializeComponent
+12:14:30.999 - Application Start within Menu
+12:14:38.257 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:14:38.259 - EventTrackerSystem.CheckOut- InitializeComponent
+12:14:40.960 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:14:40.960 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:14:40.962 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut Success!
+12:14:40.962 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:14:40.963 - EventTrackerSystem.CheckOut-Check Out Successful!
+12:14:40.964 - EventTrackerSystem.Popup- InitializeComponent
+12:14:40.974 - Application Start within Menu
+12:17:29.122 - Application Start within MainWindow
+12:17:29.147 - Application Start within Menu
+12:17:29.224 - Application Start within Menu
+12:17:30.522 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:17:30.541 - EventTrackerSystem.CheckOut- InitializeComponent
+12:17:47.024 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:17:47.046 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:17:47.143 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:17:47.144 - EventTrackerSystem.CheckOut- Check Out Failed!
+12:17:47.147 - EventTrackerSystem.Popup- InitializeComponent
+12:17:52.323 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:17:52.323 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:17:52.325 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:17:52.325 - EventTrackerSystem.CheckOut- Check Out Failed!
+12:17:52.327 - EventTrackerSystem.Popup- InitializeComponent
+12:22:14.221 - Application Start within MainWindow
+12:22:14.249 - Application Start within Menu
+12:22:14.335 - Application Start within Menu
+12:22:15.471 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:22:15.486 - EventTrackerSystem.CheckOut- InitializeComponent
+12:22:18.476 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:22:18.499 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO - CheckOut
+12:22:18.590 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut Success!
+12:22:18.590 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:22:18.592 - EventTrackerSystem.CheckOut-Check Out Successful!
+12:22:18.595 - EventTrackerSystem.Popup- InitializeComponent
+12:22:18.605 - Application Start within Menu
+12:22:20.983 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:22:20.986 - EventTrackerSystem.CheckOut- InitializeComponent
+12:22:23.645 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:22:23.645 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO - CheckOut
+12:22:23.647 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:22:23.647 - EventTrackerSystem.CheckOut- Check Out Failed!
+12:22:23.649 - EventTrackerSystem.Popup- InitializeComponent
+12:22:38.899 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:22:38.900 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO - CheckOut
+12:22:38.901 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:22:38.901 - EventTrackerSystem.CheckOut- Check Out Failed!
+12:22:38.903 - EventTrackerSystem.Popup- InitializeComponent
+12:22:40.658 - Application Start within Menu
+12:22:41.627 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:22:41.631 - EventTrackerSystem.CheckIn- InitializeComponent
+12:22:44.027 - EventTrackerSystem.CheckIn-Load_Button Clicked
+12:22:44.029 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+12:22:44.031 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+12:22:44.034 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+12:22:44.035 - EventTrackerSystem.CheckIn- attendees has data
+12:22:44.037 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+12:22:44.052 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+12:22:44.054 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+12:22:46.068 - EventTrackerSystem.CheckIn-Load_Button Clicked
+12:22:46.069 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+12:22:46.087 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn Success!
+12:22:46.088 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+12:22:46.088 - EventTrackerSystem.CheckIn-Check in Successful!
+12:22:46.090 - EventTrackerSystem.Popup- InitializeComponent
+12:22:46.100 - Application Start within Menu
+12:22:50.547 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:22:50.552 - EventTrackerSystem.CheckOut- InitializeComponent
+12:22:52.590 - EventTrackerSystem.CheckOut-CheckIn_Button Clicked
+12:22:52.590 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO - CheckOut
+12:22:52.592 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut Success!
+12:22:52.593 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckOut
+12:22:52.593 - EventTrackerSystem.CheckOut-Check Out Successful!
+12:22:52.595 - EventTrackerSystem.Popup- InitializeComponent
+12:22:52.604 - Application Start within Menu
+12:22:57.103 - EventTrackerSystem.CheckOut- InitializeComponent
+12:22:58.373 - Application Start within Menu
+12:23:01.239 - EventTrackerSystem.CheckOut- InitializeComponent
+12:23:05.379 - Application Start within Menu
+12:23:11.389 - EventTrackerSystem.Menu-Checkin_Button Clicked
+12:23:11.391 - EventTrackerSystem.CheckOut- InitializeComponent
+12:23:14.200 - Application Start within Menu
+12:23:16.005 - EventTrackerSystem.CheckOut- InitializeComponent
+12:23:17.853 - Application Start within Menu
+12:23:18.966 - EventTrackerSystem.CheckOut- InitializeComponent

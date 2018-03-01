@@ -1,0 +1,66 @@
+2016-04-01 10:02:09.340 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 10:02:15.132 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 10:04:06.136 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 10:04:56.009 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 15:59:37.203 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 15:59:41.741 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 15:59:43.470 ; EventTrackerSystem.Info_Submit- Empty fields
+2016-04-01 16:00:29.508 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:00:29.509 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 16:01:01.175 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-01 16:01:01.267 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-01 16:01:03.915 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-01 16:01:03.932 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-01 16:01:06.096 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-01 16:01:06.106 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-01 16:01:20.704 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-01 16:01:20.885 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-01 16:01:21.765 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IINSERT INTO `picture`(`p_id`, `id`, `picture_data`) VALUES (NULL,0,_binary 'Ã¿' at line 1
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata) in d:\5. Event Registration System\EventTrackerSystem\EventTrackerSystem\DAO\EventTrackerDAO.cs:line 126
+2016-04-01 16:01:21.765 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-01 16:28:33.335 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 16:28:35.194 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:28:36.376 ; EventTrackerSystem.Info_Submit- Empty fields
+2016-04-01 16:29:37.371 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:29:37.372 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 16:31:30.853 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-01 16:31:30.873 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-01 16:34:30.493 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 16:34:37.510 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:34:37.511 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 16:35:06.254 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-01 16:35:10.468 ; EventTrackerSystem.MainWindow-ViewReports_ButtonClicked
+2016-04-01 16:40:20.504 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 16:40:26.537 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:40:26.537 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 16:40:47.149 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-01 16:40:47.173 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-01 16:57:33.372 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 16:57:40.731 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:57:40.732 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 16:58:20.403 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 16:58:25.351 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 16:58:25.352 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 17:00:07.992 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 17:00:13.621 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 17:00:13.622 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 17:00:25.957 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-01 17:00:26.007 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-01 17:03:41.880 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 17:03:46.743 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 17:03:46.744 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 17:06:32.404 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 17:06:36.685 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 17:06:36.686 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-01 17:06:43.458 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-01 17:06:45.814 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 17:06:46.882 ; EventTrackerSystem.Info_Submit- Empty fields
+2016-04-01 17:06:50.605 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-01 17:06:50.606 ; EventTrackerSystem.Info_Submit- The fields have data

@@ -1,0 +1,25 @@
+09:44:26.298 - Application Start within MainWindow
+09:44:26.374 - Application Start within Menu
+09:44:26.763 - Application Start within Menu
+09:44:28.744 - EventTrackerSystem.Menu-Checkin_Button Clicked
+09:44:28.818 - EventTrackerSystem.CheckIn- InitializeComponent
+09:44:31.091 - EventTrackerSystem.CheckIn-Load_Button Clicked
+09:44:31.094 - EventTrackerSystem.Popup- InitializeComponent
+09:44:31.104 - EventTrackerSystem.CheckIn- Please enter Card number before you check!
+09:49:26.209 - Application Start within MainWindow
+09:49:26.250 - Application Start within Menu
+09:49:26.356 - Application Start within Menu
+09:49:27.311 - EventTrackerSystem.Menu-Checkin_Button Clicked
+09:49:27.337 - EventTrackerSystem.CheckIn- InitializeComponent
+09:49:28.636 - EventTrackerSystem.CheckIn-Load_Button Clicked
+09:49:28.639 - EventTrackerSystem.Popup- InitializeComponent
+09:49:28.648 - EventTrackerSystem.CheckIn- Please enter Card number before you check!
+10:05:02.475 - Application Start within MainWindow
+10:05:02.508 - Application Start within Menu
+10:05:02.613 - Application Start within Menu
+10:05:03.908 - EventTrackerSystem.Menu-Checkin_Button Clicked
+10:05:03.932 - EventTrackerSystem.CheckIn- InitializeComponent
+10:05:05.203 - EventTrackerSystem.CheckIn-Load_Button Clicked
+10:05:05.206 - EventTrackerSystem.Popup- InitializeComponent
+10:05:05.212 - EventTrackerSystem.CheckIn- Please enter Card number before you check!
+10:05:13.029 - Application Start within Menu

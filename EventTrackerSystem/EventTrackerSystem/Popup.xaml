@@ -1,0 +1,14 @@
+﻿<Window x:Class="EventTrackerSystem.Popup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Popup" Height="768" Width="1366">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/EventTrackerSystem;component/Images/main-background1.jpg" />
+        </Grid.Background>
+        <TextBlock Height="93" HorizontalAlignment="Left" Margin="25,214,0,0" x:Name="popupText" Text="Popup Message" FontSize="30" FontFamily="Arial" FontWeight="Bold" Foreground="White" VerticalAlignment="Top" Width="1326" TextAlignment="Center" TextWrapping="Wrap"/>
+        <Button Content="Ok" Height="65" FontSize="30" FontFamily="Arial" FontWeight="Bold"  HorizontalAlignment="Left" Margin="498,622,0,0" x:Name="button1" VerticalAlignment="Top" Width="295" Background="White" BorderBrush="#FF2121D6" Click="button1_Click" />
+        <ProgressBar x:Name="progressBarControl" HorizontalAlignment="Left" Height="31" Margin="1166,24,0,0" VerticalAlignment="Top" Width="174" Minimum="0" Maximum="30"/>
+        <TextBlock Text="" HorizontalAlignment="Left" Height="31" Margin="1231,24,0,0" VerticalAlignment="Top" Width="77" FontSize="25" Name="txtValue"/>
+    </Grid>
+</Window>

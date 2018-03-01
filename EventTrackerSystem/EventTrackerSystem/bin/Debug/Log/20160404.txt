@@ -1,0 +1,102 @@
+2016-04-04 10:25:41.665 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 10:25:49.167 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 10:25:49.167 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 10:26:03.171 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-04 10:26:03.268 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-04 10:26:18.414 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-04 10:26:18.425 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-04 10:26:22.302 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-04 10:26:22.439 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-04 10:26:24.937 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:Unable to connect to any of the specified MySQL hosts.
+StackTrace:   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata)
+2016-04-04 10:26:24.938 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-04 10:26:57.130 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 10:27:04.054 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 10:27:04.054 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 10:27:14.047 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-04 10:27:14.064 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-04 10:29:28.987 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-04 10:29:29.008 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-04 10:29:30.461 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:Unable to connect to any of the specified MySQL hosts.
+StackTrace:   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata)
+2016-04-04 10:29:30.461 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-04 10:56:06.991 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 10:59:40.055 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:02:13.151 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:02:28.153 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:02:29.418 ; EventTrackerSystem.Info_Submit- Empty fields
+2016-04-04 11:02:36.690 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:02:36.690 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:20:20.132 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:20:28.799 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:20:55.398 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:21:18.085 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:21:30.990 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:21:30.990 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:21:42.995 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:21:42.996 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:28:15.723 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:28:26.203 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:28:26.203 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:37:23.646 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:37:34.259 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:37:34.260 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:37:42.455 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-04 11:37:42.479 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-04 11:37:49.609 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:37:49.610 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:37:52.619 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-04 11:37:52.640 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-04 11:37:59.180 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:38:00.717 ; EventTrackerSystem.Info_Submit- Empty fields
+2016-04-04 11:38:07.223 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:38:07.224 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:38:19.722 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 11:38:19.722 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-04 11:38:22.435 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-04 11:38:22.456 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-04 11:38:23.310 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-04 11:38:23.333 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-04 11:38:24.773 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:Unable to connect to any of the specified MySQL hosts.
+StackTrace:   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata)
+2016-04-04 11:38:24.773 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-04 11:43:20.960 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:46:03.771 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:46:24.907 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:47:16.170 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:50:05.132 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:52:15.513 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:52:55.974 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:59:03.397 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 11:59:28.105 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 12:07:35.520 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 12:23:52.402 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 12:24:00.367 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 12:24:20.364 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 15:35:04.348 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 15:40:05.467 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 15:42:16.775 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-04 15:42:18.666 ; EventTrackerSystem.Info_Submit- Empty fields
+2016-04-04 16:22:11.941 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-04 16:40:17.297 ; EventTrackerSystem.MainWindow-Register_ButtonClicked

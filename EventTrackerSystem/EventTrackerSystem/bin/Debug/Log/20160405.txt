@@ -1,0 +1,521 @@
+2016-04-05 09:53:04.024 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 09:53:37.856 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 09:53:37.857 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 09:53:37.985 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 09:53:38.762 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[value-2],'Jacob','Petro','jacobpetro18','0705941419','Ec',NULL)' at line 1
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.RegisterAttendee(String first_name, String last_name, String email_address, String phone_number, String company_name)
+2016-04-05 09:53:38.763 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 09:53:38.765 ; EventTrackerSystem.Info_Submit- RegisterAttendee return false, a message must be shown
+2016-04-05 10:17:45.826 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 10:18:23.979 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 10:18:23.980 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 10:18:24.003 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:18:24.003 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-BTA1201604051018240033,first_name-jacob,last_name-petro,email_address-jacobpetro18@yahoo.com,phone_number-0705987098,company_anme-Eclectics
+2016-04-05 10:18:24.115 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 10:18:24.115 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:18:24.117 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 10:18:41.817 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 10:18:41.883 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 10:18:45.871 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 10:18:45.872 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 10:18:46.241 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IINSERT INTO `picture`(`p_id`, `id`, `picture_data`) VALUES (NULL,0,_binary 'Ã¿' at line 1
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata)
+2016-04-05 10:18:46.241 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 10:18:46.242 ; EventTrackerSystem.Take_Photo- SavePicture return false, a message must be shown
+2016-04-05 10:43:03.186 ; Application Start within MainWindow-16100405101643031835
+2016-04-05 10:44:40.909 ; Application Start within MainWindow-161004051044409057
+2016-04-05 10:45:45.909 ; Application Start within MainWindow-16100405104545
+2016-04-05 10:46:46.373 ; Application Start within MainWindow-161004054646
+2016-04-05 10:47:38.821 ; Application Start within MainWindow-161004054738
+2016-04-05 10:49:32.069 ; Application Start within MainWindow-
+2016-04-05 10:49:32.906 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 10:50:05.604 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 10:50:05.605 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 10:50:05.627 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:50:05.627 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161005045005,first_name-ken,last_name-ngujii,email_address-kennguji,phone_number-07091213,company_anme-eclect
+2016-04-05 10:50:05.739 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 10:50:05.739 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:50:05.741 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 10:50:12.885 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 10:50:12.910 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 10:50:14.205 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 10:50:14.206 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 10:50:14.208 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+2016-04-05 10:50:18.985 ; EventTrackerSystem.Take_Photo-Exception:Could not find specified column in results: id
+StackTrace:   at MySql.Data.MySqlClient.ResultSet.GetOrdinal(String name)
+   at MySql.Data.MySqlClient.MySqlDataReader.GetOrdinal(String name)
+   at MySql.Data.MySqlClient.MySqlDataReader.get_Item(String name)
+   at EventTrackerSystem.DAO.EventTrackerDAO.GetLastAttendeeID()
+   at EventTrackerSystem.Take_Photo.Finish_button_Click(Object sender, RoutedEventArgs e)
+2016-04-05 10:50:38.548 ; Application Start within MainWindow-
+2016-04-05 10:52:27.061 ; Application Start within MainWindow-
+2016-04-05 10:52:28.720 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 10:52:48.197 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 10:52:48.198 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 10:52:48.219 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:52:48.220 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161005045248,first_name-kel,last_name-jk,email_address-kkk2COM,phone_number-0912121,company_anme-
+2016-04-05 10:52:48.361 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 10:52:48.362 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:52:48.366 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 10:52:54.669 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 10:52:54.687 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 10:52:56.253 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 10:52:56.255 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 10:52:56.257 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+2016-04-05 10:52:56.258 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 10:52:56.260 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 10:52:56.641 ; EventTrackerSystem.DAO.EventTrackerDAO-Exception:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IINSERT INTO `picture`(`p_id`, `id`, `picture_data`) VALUES (NULL,3,_binary 'Ã¿' at line 1
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.SavePicture(Int32 id, Byte[] picdata)
+2016-04-05 10:52:56.641 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 10:52:56.642 ; EventTrackerSystem.Take_Photo- SavePicture return false, a message must be shown
+2016-04-05 10:53:33.694 ; Application Start within MainWindow-
+2016-04-05 10:57:14.610 ; Application Start within MainWindow-
+2016-04-05 10:57:15.862 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 10:57:36.900 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 10:57:36.901 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 10:57:36.923 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:57:36.924 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161005045736,first_name-mike,last_name-sonko,email_address-email,phone_number-079789,company_anme-
+2016-04-05 10:57:37.037 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 10:57:37.037 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 10:57:37.040 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 10:57:42.183 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 10:57:42.209 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 10:57:43.218 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 10:57:43.219 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 10:57:43.222 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+2016-04-05 10:57:43.224 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 10:57:43.225 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 10:57:43.254 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture Failed!
+2016-04-05 10:57:43.255 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 10:57:43.255 ; EventTrackerSystem.Take_Photo- SavePicture return false, a message must be shown
+2016-04-05 11:50:56.015 ; Application Start within MainWindow-
+2016-04-05 11:50:57.706 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 11:51:28.947 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 11:51:28.948 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 11:51:28.971 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 11:51:28.972 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161105045128,first_name-jack,last_name-jame,email_address-jaco@yahoo.com,phone_number-0705133,company_anme-Eclectics
+2016-04-05 11:51:29.084 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 11:51:29.085 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 11:51:29.087 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 11:51:35.034 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 11:51:35.047 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 11:51:36.470 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 11:51:36.472 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 11:51:36.474 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+2016-04-05 11:51:36.475 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 11:51:36.476 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 11:51:36.517 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture Success!
+2016-04-05 11:51:36.517 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 11:51:36.518 ; EventTrackerSystem.Take_Photo- SavePicture return true, navigate to the next page
+2016-04-05 11:51:36.522 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+2016-04-05 11:51:36.523 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails Success!
+2016-04-05 11:53:50.882 ; Application Start within MainWindow-
+2016-04-05 11:53:51.860 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 11:53:58.545 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 11:53:58.546 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 11:53:58.570 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 11:53:58.571 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161105045358,first_name-asas,last_name-ddd,email_address-qwqe,phone_number-qwqe,company_anme-
+2016-04-05 11:53:58.671 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 11:53:58.672 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 11:53:58.674 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 11:54:03.276 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 11:54:03.288 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 11:54:04.292 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 11:54:04.293 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 11:54:04.295 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+2016-04-05 11:54:04.296 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 11:54:04.297 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 11:54:04.303 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture Success!
+2016-04-05 11:54:04.303 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 11:54:04.304 ; EventTrackerSystem.Take_Photo- SavePicture return true, navigate to the next page
+2016-04-05 11:54:04.309 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+2016-04-05 11:54:04.311 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails Success!
+2016-04-05 11:54:04.313 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+2016-04-05 11:54:04.313 ; EventTrackerSystem.Notification- attendees has data
+2016-04-05 11:54:04.314 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 11:54:04.316 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 11:54:04.317 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:03:55.170 ; Application Start within MainWindow-
+2016-04-05 12:03:56.262 ; EventTrackerSystem.MainWindow-Register_ButtonClicked
+2016-04-05 12:04:08.680 ; EventTrackerSystem.Info_Submit-Next_buttonClicked
+2016-04-05 12:04:08.681 ; EventTrackerSystem.Info_Submit- The fields have data
+2016-04-05 12:04:08.702 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 12:04:08.703 ; Data:EventTrackerSystem.DAO.EventTrackerDAO-uid-161205040408,first_name-dede,last_name-weaf,email_address-we,phone_number-wer,company_anme-
+2016-04-05 12:04:08.805 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee Success!
+2016-04-05 12:04:08.806 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- RegisterAttendee
+2016-04-05 12:04:08.807 ; EventTrackerSystem.Info_Submit- RegisterAttendee return true, navigate to the next page
+2016-04-05 12:04:16.046 ; EventTrackerSystem.Take_Photo-TakePhoto_buttonClicked
+2016-04-05 12:04:16.059 ; Enter functionEventTrackerSystem.Take_Photo- ConvertImageandDisplay
+2016-04-05 12:04:17.653 ; EventTrackerSystem.Take_Photo-Finish_buttonClicked
+2016-04-05 12:04:17.654 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 12:04:17.656 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID Success!
+2016-04-05 12:04:17.657 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetLastAttendeeID
+2016-04-05 12:04:17.658 ; Enter function:EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 12:04:17.694 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture Success!
+2016-04-05 12:04:17.694 ; Leave function :EventTrackerSystem.DAO.EventTrackerDAO- SavePicture
+2016-04-05 12:04:17.695 ; EventTrackerSystem.Take_Photo- SavePicture return true, navigate to the next page
+2016-04-05 12:04:17.699 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+2016-04-05 12:04:17.701 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails Success!
+2016-04-05 12:04:17.703 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeDetails
+2016-04-05 12:04:17.704 ; EventTrackerSystem.Notification- attendees has data
+2016-04-05 12:04:17.705 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:04:17.707 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 12:04:17.708 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:26:50.323 ; Application Start within MainWindow-
+2016-04-05 12:26:51.665 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 12:27:11.948 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:27:12.046 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 12:27:12.049 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:27:12.050 ; EventTrackerSystem.CheckIn- attendees has data
+2016-04-05 12:27:12.051 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:27:12.053 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 12:27:12.054 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:29:32.288 ; Application Start within MainWindow-
+2016-04-05 12:29:34.066 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 12:29:37.615 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:29:37.724 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 12:29:37.726 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:30:47.788 ; Application Start within MainWindow-
+2016-04-05 12:30:49.128 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 12:33:30.526 ; Application Start within MainWindow-
+2016-04-05 12:33:31.580 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 12:33:43.258 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:33:43.356 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 12:33:43.359 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:33:43.362 ; EventTrackerSystem.CheckIn- attendees has data
+2016-04-05 12:33:43.363 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:33:43.364 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 12:33:43.366 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:34:05.370 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:34:05.371 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 12:34:05.372 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:34:05.372 ; EventTrackerSystem.CheckIn- attendees has data
+2016-04-05 12:34:05.373 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:34:05.374 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 12:34:05.374 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:34:15.464 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:34:15.465 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 12:34:15.465 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:34:15.466 ; EventTrackerSystem.CheckIn- attendees has data
+2016-04-05 12:34:15.466 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:34:15.467 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 12:34:15.468 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:34:30.794 ; Application Start within MainWindow-
+2016-04-05 12:34:31.898 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 12:41:27.002 ; Application Start within MainWindow-
+2016-04-05 12:41:29.081 ; EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 12:41:35.713 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:41:35.808 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 12:41:35.811 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 12:41:35.812 ; EventTrackerSystem.CheckIn- attendees has data
+2016-04-05 12:41:35.813 ; Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 12:41:35.814 ; In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 12:41:35.815 ; Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 13:26:11.333 - Application Start within MainWindow-
+2016-04-05 13:26:12.835 - EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 13:26:12.842 - EventTrackerSystem.CheckIn- InitializeComponent
+2016-04-05 13:26:15.694 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:26:21.368 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:26:21.390 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:26:21.527 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:26:21.529 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:27:17.567 - Application Start within MainWindow-
+2016-04-05 13:27:18.634 - EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 13:27:18.641 - EventTrackerSystem.CheckIn- InitializeComponent
+2016-04-05 13:27:21.535 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:27:21.554 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:27:21.656 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:27:21.658 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:28:12.094 - Application Start within MainWindow-
+2016-04-05 13:28:13.389 - EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 13:28:13.396 - EventTrackerSystem.CheckIn- InitializeComponent
+2016-04-05 13:28:16.294 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:28:16.312 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:28:16.412 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:28:16.414 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:28:47.616 - Application Start within MainWindow-
+2016-04-05 13:28:48.704 - EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 13:28:48.714 - EventTrackerSystem.CheckIn- InitializeComponent
+2016-04-05 13:28:51.507 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:28:51.529 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:28:51.634 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:28:51.636 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:29:45.129 - Application Start within MainWindow-
+2016-04-05 13:29:46.289 - EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 13:29:46.295 - EventTrackerSystem.CheckIn- InitializeComponent
+2016-04-05 13:29:49.148 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:29:49.167 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:29:49.256 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:29:49.258 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:30:20.371 - Application Start within MainWindow-
+2016-04-05 13:30:21.301 - EventTrackerSystem.MainWindow-Checkin_ButtonClicked
+2016-04-05 13:30:21.308 - EventTrackerSystem.CheckIn- InitializeComponent
+2016-04-05 13:30:23.996 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:30:24.015 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:30:24.111 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:30:24.113 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:30:30.795 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:30:30.795 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:30:30.797 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:30:30.797 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:31:00.635 - EventTrackerSystem.CheckIn-Load_Button Clicked
+2016-04-05 13:31:00.636 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:31:00.637 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+2016-04-05 13:31:00.639 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+2016-04-05 13:31:00.640 - EventTrackerSystem.CheckIn- attendees has data
+2016-04-05 13:31:00.641 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+2016-04-05 13:31:00.643 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+2016-04-05 13:31:00.644 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:35:22.204 - Application Start within MainWindow
+13:35:24.220 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:35:24.228 - EventTrackerSystem.CheckIn- InitializeComponent
+13:35:31.239 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:35:31.260 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:35:31.360 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:35:31.362 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:35:48.388 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:35:48.389 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:35:48.390 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:35:48.393 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:35:48.393 - EventTrackerSystem.CheckIn- attendees has data
+13:35:48.394 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:35:48.396 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+13:35:48.397 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:37:31.313 - Application Start within MainWindow
+13:37:32.204 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:37:32.211 - EventTrackerSystem.CheckIn- InitializeComponent
+13:38:30.558 - Application Start within MainWindow
+13:38:31.781 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:38:31.789 - EventTrackerSystem.CheckIn- InitializeComponent
+13:39:02.348 - Application Start within MainWindow
+13:39:03.531 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:39:03.540 - EventTrackerSystem.CheckIn- InitializeComponent
+13:41:29.418 - Application Start within MainWindow
+13:41:43.600 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:41:43.607 - EventTrackerSystem.CheckIn- InitializeComponent
+13:41:49.271 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:41:49.295 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:41:49.399 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:41:49.400 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:42:08.991 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:42:08.992 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:42:08.993 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:42:08.996 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:42:08.996 - EventTrackerSystem.CheckIn- attendees has data
+13:42:08.998 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:42:09.000 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+13:42:09.002 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:42:38.811 - Application Start within MainWindow
+13:42:39.963 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:42:39.969 - EventTrackerSystem.CheckIn- InitializeComponent
+13:42:57.642 - Application Start within MainWindow
+13:42:58.548 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:42:58.554 - EventTrackerSystem.CheckIn- InitializeComponent
+13:43:08.229 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:43:08.250 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:43:08.374 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:43:08.377 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:43:08.378 - EventTrackerSystem.CheckIn- attendees has data
+13:43:08.379 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:43:08.381 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+13:43:08.382 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:43:11.512 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:43:11.513 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+13:43:11.515 - In function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn Success!
+13:43:11.516 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+13:43:11.516 - EventTrackerSystem.CheckIn-Check in Successful!
+13:43:11.516 - Application Start within MainWindow
+13:43:24.669 - EventTrackerSystem.MainWindow-Register_Button Clicked
+13:43:44.204 - Application Start within MainWindow
+13:43:45.324 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:43:45.330 - EventTrackerSystem.CheckIn- InitializeComponent
+13:44:00.037 - Application Start within MainWindow
+13:44:01.034 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:44:01.040 - EventTrackerSystem.CheckIn- InitializeComponent
+13:45:34.368 - Application Start within MainWindow
+13:45:35.590 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:45:35.598 - EventTrackerSystem.CheckIn- InitializeComponent
+13:45:51.370 - Application Start within MainWindow
+13:45:52.530 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:45:52.536 - EventTrackerSystem.CheckIn- InitializeComponent
+13:45:57.582 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:45:57.604 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:45:57.714 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:45:57.717 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:45:57.718 - EventTrackerSystem.CheckIn- attendees has data
+13:45:57.719 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:45:57.721 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+13:45:57.722 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+13:45:59.019 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:45:59.020 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+13:45:59.288 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Duplicate entry '161105045358' for key 'uid'
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckIn(String uid)
+13:45:59.289 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+13:45:59.289 - EventTrackerSystem.CheckIn- Check in Failed!
+13:46:05.674 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:46:05.675 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+13:46:05.942 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Duplicate entry '161105045358' for key 'uid'
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckIn(String uid)
+13:46:05.942 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+13:46:05.943 - EventTrackerSystem.CheckIn- Check in Failed!
+13:48:56.429 - Application Start within MainWindow
+13:48:57.603 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:48:57.612 - EventTrackerSystem.CheckIn- InitializeComponent
+13:49:19.016 - Application Start within MainWindow
+13:49:20.110 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:49:20.115 - EventTrackerSystem.CheckIn- InitializeComponent
+13:49:31.703 - Application Start within MainWindow
+13:49:35.515 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:49:35.521 - EventTrackerSystem.CheckIn- InitializeComponent
+13:49:49.467 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:49:49.486 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:49:49.583 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:49:49.585 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:52:23.489 - Application Start within MainWindow
+13:52:24.642 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+13:52:24.649 - EventTrackerSystem.CheckIn- InitializeComponent
+13:52:27.943 - EventTrackerSystem.CheckIn-Load_Button Clicked
+13:52:27.960 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:52:28.057 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+13:52:28.058 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+13:52:29.190 - EventTrackerSystem.CheckIn- No Record found for 5235
+14:49:27.335 - Application Start within MainWindow
+14:49:28.436 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+14:49:28.445 - EventTrackerSystem.CheckIn- InitializeComponent
+14:49:45.107 - EventTrackerSystem.CheckIn-Load_Button Clicked
+14:49:45.126 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+14:49:45.225 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details Success!
+14:49:45.230 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetAttendeeUID_Details
+14:49:45.231 - EventTrackerSystem.CheckIn- attendees has data
+14:49:45.232 - Enter functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+14:49:45.234 - In function :EventTrackerSystem.DAO.EventTrackerDAO- GetPicture Success!
+14:49:45.235 - Leave functionEventTrackerSystem.DAO.EventTrackerDAO- GetPicture
+14:49:47.071 - EventTrackerSystem.CheckIn-Load_Button Clicked
+14:49:47.072 - Enter function:EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+14:49:47.355 - EventTrackerSystem.DAO.EventTrackerDAO-Exception:Duplicate entry '161105045358' for key 'uid'
+StackTrace:   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.ReadResult()
+   at MySql.Data.MySqlClient.ResultSet.NextResult()
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at EventTrackerSystem.DAO.EventTrackerDAO.CheckIn(String uid)
+14:49:47.355 - Leave function :EventTrackerSystem.DAO.EventTrackerDAO- CheckIn
+14:49:47.356 - EventTrackerSystem.CheckIn- Check in Failed!
+14:49:51.259 - Application Start within MainWindow
+14:52:51.109 - Application Start within MainWindow
+14:52:52.545 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+14:52:52.551 - EventTrackerSystem.CheckIn- InitializeComponent
+14:53:03.409 - EventTrackerSystem.CheckIn-Load_Button Clicked
+14:53:04.913 - EventTrackerSystem.CheckIn- Please enter Card number before you check!
+14:53:05.812 - EventTrackerSystem.CheckIn-Load_Button Clicked
+14:53:05.813 - EventTrackerSystem.CheckIn- No UID!
+14:53:05.813 - Application Start within MainWindow
+14:53:11.519 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+14:53:11.521 - EventTrackerSystem.CheckIn- InitializeComponent
+14:53:14.150 - EventTrackerSystem.CheckIn-Load_Button Clicked
+14:53:14.150 - EventTrackerSystem.CheckIn- No UID!
+14:53:14.151 - Application Start within MainWindow
+14:54:22.565 - Application Start within MainWindow
+14:54:23.885 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+14:54:23.891 - EventTrackerSystem.CheckIn- InitializeComponent
+14:54:25.286 - EventTrackerSystem.CheckIn-Load_Button Clicked
+14:54:25.287 - EventTrackerSystem.CheckIn- No UID!
+14:54:25.287 - Application Start within MainWindow
+15:13:25.283 - Application Start within MainWindow
+15:13:26.595 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+15:13:26.603 - EventTrackerSystem.CheckIn- InitializeComponent
+15:13:27.756 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:13:27.757 - EventTrackerSystem.CheckIn- No UID!
+15:13:29.709 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+15:13:29.711 - EventTrackerSystem.CheckIn- InitializeComponent
+15:13:30.857 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:13:30.857 - EventTrackerSystem.CheckIn- No UID!
+15:13:31.717 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+15:13:31.719 - EventTrackerSystem.CheckIn- InitializeComponent
+15:13:32.985 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:13:32.985 - EventTrackerSystem.CheckIn- No UID!
+
+http://stackoverflow.com/questions/16236905/access-parent-window-from-user-control
+
+  Window win = Application.Current.MainWindow;
+               win.Show();
+15:51:15.403 - Application Start within MainWindow
+15:51:19.328 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+15:51:19.335 - EventTrackerSystem.CheckIn- InitializeComponent
+15:51:22.699 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:51:22.699 - EventTrackerSystem.CheckIn- No UID!
+15:52:34.991 - Application Start within MainWindow
+15:52:37.088 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+15:52:37.095 - EventTrackerSystem.CheckIn- InitializeComponent
+15:52:38.290 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:52:38.290 - EventTrackerSystem.CheckIn- No UID!
+15:52:51.405 - EventTrackerSystem.MainWindow-ViewReports_Button Clicked
+15:54:20.936 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:54:20.937 - EventTrackerSystem.CheckIn- No UID!
+15:56:18.660 - EventTrackerSystem.MainWindow-Checkin_Button Clicked
+15:56:18.662 - EventTrackerSystem.CheckIn- InitializeComponent
+15:56:20.244 - EventTrackerSystem.CheckIn-Load_Button Clicked
+15:56:22.261 - EventTrackerSystem.CheckIn- Please enter Card number before you check!
+16:11:59.606 - Application Start within MainWindow
+16:12:01.061 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:12:01.506 - EventTrackerSystem.Take_Photo- InitializeComponent
+16:12:45.161 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:12:45.167 - EventTrackerSystem.Take_Photo- InitializeComponent
+16:12:48.870 - EventTrackerSystem.Take_Photo-Exception:Exception of type 'Microsoft.Expression.Encoder.SystemErrorException' was thrown.
+StackTrace:   at WebcamControl.Webcam.StartPreview()
+   at EventTrackerSystem.Take_Photo..ctor()
+16:13:05.871 - Application Start within MainWindow
+16:13:07.225 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:13:14.500 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:39:25.617 - Application Start within MainWindow
+16:40:35.267 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:40:37.594 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:40:40.136 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:40:41.437 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:40:43.658 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:40:45.758 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:50:16.340 - Application Start within MainWindow
+16:50:17.712 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:55:07.673 - Application Start within MainWindow
+16:55:10.283 - EventTrackerSystem.MainWindow-Register_Button Clicked
+16:56:56.463 - Application Start within MainWindow
+16:56:58.095 - EventTrackerSystem.MainWindow-Register_Button Clicked
+17:10:20.395 - Application Start within MainWindow
+17:10:22.469 - EventTrackerSystem.MainWindow-Register_Button Clicked
