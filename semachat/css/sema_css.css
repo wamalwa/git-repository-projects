@@ -1,0 +1,84 @@
+body{margin-top: 0px;margin-left: 25%;  font-family:'Segoe UI','Segoe UI Symbol',Arial; }
+
+#title
+{
+ height:50%;
+ width: 41.6%;
+ color: white;
+ background-color:black;
+ text-align: center;
+ font-size: 1.8em;
+
+}
+#content{
+     margin-top: 1%;
+     height: 100%;
+         width: 90%;
+          top: 55%;
+         left: 15%
+             
+}
+#login{
+    height: 100%;
+       width: 70%;     
+       top: 55%;float:left;
+}
+#signup{
+    height: 100%;
+        width: 70%;     
+        float:left;}
+#footer{
+     height: 10%;
+        width: 70%;
+         font-size: 0.5em;
+}
+
+#MessageBox{font-size: 0.7em;}
+#MessageBox2{font-size: 0.7em;}
+
+#active-friends{
+      height:450px;
+       width: 23%;     
+       top: 55%;
+       float:left;
+       overflow: auto;
+       text-align: center;
+   
+      
+}
+#friend_name{ 
+ margin-left: 22%;
+ color: white;
+ background-color:black;
+ text-align: center;
+ font-size: 1.2em;
+ width: 57%;
+ height: 7%;
+}
+#chat-log{
+      height: 450px;
+       width: 57.5%;     
+       top: 54%;
+       margin-left: 20.2%;
+       overflow: auto;
+       font-size: 1.5em;
+       background-color: buttonface;
+}
+#members{
+    position: absolute;
+     height: 450px;
+       width: 23.5%;     
+       top: 15%;
+       margin-left: 70.2%;
+       overflow: auto;
+       font-size: 1.5em;
+      
+}
+a{text-decoration:none;color:green;}
+a:hover{color:black;}
+a:active{color:black;}
+
+#post{ height: 100%;
+       width: 57.5%;     
+       top: auto;
+       margin-left: 23%;}

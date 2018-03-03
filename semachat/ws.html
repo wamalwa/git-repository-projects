@@ -1,0 +1,52 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web service</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script type="text/javascript">
+            
+        function Hello()
+            {   
+                var xmlhttp;
+              
+                if(window.XMLHttpRequest){ xmlhttp=new XMLHttpRequest();}
+                else{ xmlhttp=new ActiveXObject("Microsoft.XMLHTTP"); }
+
+                xmlhttp.onreadystatechange=function()
+                {
+                    if(xmlhttp.readyState==4 && xmlhttp.status==200)
+                    { alert(xmlhttp.responseText);   
+            }
+            esle
+            {
+                alert('No response!'+xmlhttp.responseText); 
+            }
+                }
+                xmlhttp.open("POST","http://localhost:1636/WebService1.asmx?op=HelloWorld",true);
+                xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+                xmlhttp.send();
+                
+            }
+            
+            function GetHello()
+            {
+                service.useService();
+            }
+            
+            
+            
+            
+            
+        </script>
+        
+        
+    </head>
+    <body>
+        <button onclick="Hello();">Click Here</button>
+    </body>
+</html>
