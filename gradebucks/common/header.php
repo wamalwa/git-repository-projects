@@ -18,7 +18,7 @@ Edited by Jacob Petero for this website
 <link href="layout//styles/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="layout//styles/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
 <link href="layout/styles/css/bootstrap.css.map" rel="stylesheet" type="text/css" media="all">  
-<link rel="shortcut icon" href="images/logo_old.jpg">
+<link rel="shortcut icon" href="images/favicon.jpg">
 <script src="layout/scripts/js/jquery-1.6.2.min.js"></script>
 </head>
 <body id="top">

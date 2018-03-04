@@ -1100,55 +1100,7 @@ function AddNewModule($roleName,$roleDescription){
      $this->log("Function->AddCategory: End....");
         return $success;
    }   
-function AddNewAcademicLevel($levelname,$levelDescription){
-       $success = -1;
-       try {
-               
-           // $this->log('Function->AddCategory: Start....');
-           
-         $stmtSel = $this->db->pdo->prepare('SELECT `levelid` 
-          FROM `tbacademiclevels` 
-          WHERE `levelname` = :levelname');
-         $stmtSel->bindValue(':levelname'
-        , $levelname, PDO::PARAM_STR);
-         
-         // $this->log("Function->AddCategory: Prepare Statement: ".current($stmtSel));
-         $stmtSel->execute();
-//          $this->log("Function->AddCategory:  Call execute");
-         $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);
-         
-        $params    = array(':levelname'   => $levelname,
-                      ':levelDescription' => $levelDescription, 
-                      ':createdon'           =>$this->dateToday,
-                      ':createdby'           =>$this->userid);
-  
-        $stmtInst  = $this->db->pdo->prepare("INSERT INTO `tbacademiclevels`(`levelname`, `levelDescription`, `createdon`, `createdby`)  "
-                . "VALUES (:levelname,:levelDescription,:createdon,:createdby)");
-       if(count($num_rows)<=0)
-        {  
-            $stmtInst->execute($params);
-              // $this->log("Function->AddCategory:  Call execute");
-            $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-          }
-        }
-        catch (PDOException $e) {
-//        $this->log("Function->AddCategory:  PDOException e [] ".$e->getMessage());  
-            if ($e->getCode() === 1062) {
-                $success  = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;
-   } 
+   
 function UpdateAcademicLevel($id,$levelname,$levelDescription) {
        $success = -1;
     try {         
@@ -1178,51 +1130,6 @@ function UpdateAcademicLevel($id,$levelname,$levelDescription) {
     }
         return $success;
    }          
-function AddNewSubjectArea($subjectname,$subjectdescription) {
-       $success = -1;
-       try {
-               
-           // $this->log('Function->AddCategory: Start....');
-           
-         $stmtSel = $this->db->pdo->prepare('SELECT `subjectid` 
-          FROM `tbsubjectarea` 
-          WHERE `subjectname` = :subjectname');
-         $stmtSel->bindValue(':subjectname'
-        , $subjectname, PDO::PARAM_STR);
-         
-         $stmtSel->execute();
-         $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);
-         
-        $params    = array(':subjectname'   => $subjectname,
-                      ':subjectdescription' => $subjectdescription, 
-                      ':createdon'           =>$this->dateToday,
-                      ':createdby'           =>$this->userid);
-  
-        $stmtInst  = $this->db->pdo->prepare("INSERT INTO `tbsubjectarea`(`subjectname`, `subjectdescription`, `createdon`, `createdby`)  "
-                . "VALUES (:subjectname,:subjectdescription,:createdon,:createdby)");
-       if(count($num_rows)<=0)
-        {  
-            $stmtInst->execute($params);
-            $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-          }
-        }
-        catch (PDOException $e) {  
-            if ($e->getCode() === 1062) {
-                $success  = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;
-   }
 function UpdateSubjectArea($id,$subjectname,$subjectdescription) {
        $success = -1;
     try {         
@@ -1252,50 +1159,7 @@ function UpdateSubjectArea($id,$subjectname,$subjectdescription) {
     }
         return $success;
    } 
-function AddNewUrgencyLevel($urgency_value,$urgency_name,$desscription){
-        $success = -1;
-  try {   
-        
-         $stmtSel = $this->db->pdo->prepare('SELECT `urgencyid` 
-          FROM `tburgencies` 
-          WHERE `urgency_value` = :urgency_value AND `urgency_name` = :urgency_name');
-      $data = array(
-      ':urgency_value' => $urgency_value
-      ,':urgency_name' =>  $urgency_name);
-       $stmtSel->execute($data);
-         $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);         
-        $params    = array(
-                        ':urgency_value' => $urgency_value,
-                        ':urgency_name'   => $urgency_name,
-                        ':desscription' => $desscription, 
-                        ':createdon'           =>$this->dateToday,
-                        ':createdby'           =>$this->userid);
 
-        $stmtInst  = $this->db->pdo->prepare("INSERT INTO `tburgencies`(`urgency_value`,`urgency_name`, `desscription`, `createdon`, `createdby`)  "
-                . "VALUES (:urgency_value,:urgency_name,:desscription,:createdon,:createdby)");
-       if(count($num_rows)<=0)
-        {  
-            $stmtInst->execute($params);
-            $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-          }
-        }
-        catch (PDOException $e) {  
-            if ($e->getCode() === 1062) {
-                $success  = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;   
-}
 function UpdateUrgencyLevel($id,$urgency_value,$urgency_name,$desscription) {
        $success = -1;
     try {         
@@ -1326,50 +1190,7 @@ function UpdateUrgencyLevel($id,$urgency_value,$urgency_name,$desscription) {
     }
         return $success;
    }  
-function AddNewPaperType($typename,$typedescription){
-       $success = -1;
-       try {
-                          
-         $stmtSel = $this->db->pdo->prepare('SELECT `typeid` 
-          FROM `tbpapertypes` 
-          WHERE `typename` = :typename');
-         $stmtSel->bindValue(':typename'
-        , $typename, PDO::PARAM_STR);
-         
-         $stmtSel->execute();
-         $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);
-         
-        $params    = array(':typename'   => $typename,
-                      ':typedescription' => $typedescription, 
-                      ':createdon'           =>$this->dateToday,
-                      ':createdby'           =>$this->userid);
-  
-        $stmtInst  = $this->db->pdo->prepare("INSERT INTO `tbpapertypes`(`typename`, `typedescription`, `createdon`, `createdby`)  "
-                . "VALUES (:typename,:typedescription,:createdon,:createdby)");
-       if(count($num_rows)<=0)
-        {  
-            $stmtInst->execute($params);
-              // $this->log("Function->AddCategory:  Call execute");
-            $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-          }
-        }
-        catch (PDOException $e) {
-            if ($e->getCode() === 1062) {
-                $success  = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;
-   }  
+   
 function UpdatePaperType($id,$typename,$typedescription) {
        $success = -1;
     try {         
@@ -1401,56 +1222,7 @@ function UpdatePaperType($id,$typename,$typedescription) {
         }
     }
         return $success;
-   }         
-  //AddNewService 
-function AddNewService($servicename,$serviceDescription){
-    $success = -1;
-      try {
-               
-           // $this->log('Function->AddCategory: Start....');
-           
-         $stmtSel = $this->db->pdo->prepare('SELECT `serviceid` 
-          FROM `tbservices` 
-          WHERE `servicename` = :servicename');
-         $stmtSel->bindValue(':servicename'
-        , $servicename, PDO::PARAM_STR);
-         
-         // $this->log("Function->AddCategory: Prepare Statement: ".current($stmtSel));
-         $stmtSel->execute();
-//          $this->log("Function->AddCategory:  Call execute");
-         $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);
-         
-        $params    = array(':servicename'   => $servicename,
-                      ':serviceDescription' => $serviceDescription, 
-                      ':createdon'           =>$this->dateToday,
-                      ':createdby'           =>$this->userid,
-                      ':active'              =>1);
-  
-        $stmtInst  = $this->db->pdo->prepare("INSERT INTO `tbservices`(`servicename`, `serviceDescription`, `createdon`, `createdby`,`active`)  "
-                . "VALUES (:servicename,:serviceDescription,:createdon,:createdby,:active)");
-       if(count($num_rows)<=0)
-        {  
-            $stmtInst->execute($params);
-            $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-          }
-        }
-        catch (PDOException $e) {  
-            if ($e->getCode() === 1062) {
-                $success  = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;
-   }  
+   }          
 // UpdateService  
 function UpdateService($id,$servicename,$serviceDescription) {
        $success = -1;
@@ -1485,51 +1257,7 @@ function UpdateService($id,$servicename,$serviceDescription) {
         }
     }
         return $success;
-   }  
-function AddNewCountry($country_name,$currencycode,$currencyname,$country_description){
-  $success = -1;
-       try {
-           
-         $stmtSel = $this->db->pdo->prepare('SELECT `contryid` 
-          FROM `tbcountries` 
-          WHERE `country_name` = :country_name');
-         $stmtSel->bindValue(':country_name'
-        , $country_name, PDO::PARAM_STR);
-         
-       $stmtSel->execute();
-       $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);         
-       $params    = array(':country_name'   => $country_name,
-                      ':currencycode' => $currencycode,
-                      ':currencyname' => $currencyname, 
-                      ':country_description' => $country_description, 
-                      ':createdon'           =>$this->dateToday,
-                      ':createdby'           =>$this->userid);
-  
-       $stmtInst  = $this->db->pdo->prepare("INSERT INTO `tbcountries`(`country_name`, `currencycode`, `currencyname`, `country_description`,`createdon`,`createdby`)  "
-                . "VALUES (:country_name,:currencycode,:currencyname,:country_description,:createdon,:createdby)");
-       if(count($num_rows)<=0)
-        {  
-            $stmtInst->execute($params);
-            $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-          }
-        }
-        catch (PDOException $e) { 
-            if ($e->getCode() === 1062) {
-                $success  = $e;
-                } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;
-   }  
+   }   
 
 function  UpdateCountry($id,$country_name,$currencycode,$currencyname,$country_description){
      $success = -1;
@@ -1618,67 +1346,7 @@ function AddUsergroup($groupName,$groupDescription){
              // $this->log("Function->AddUsergroup: End....");
         return $success;
    }  
-   //  $userpassword=mt_rand(100000, 999999);
-function AddUser($lastname,$firstname,$phonenumber,$emailaddress,$gender,$selectUsergroup){
-    $success = -1;
-            
-          try {
-        
-         $userpassword=mt_rand(100000, 999999);
-         // $this->log("Function->AddUser: Start....");
-         $stmtSel = $this->db->pdo->prepare("SELECT `userid` FROM `tbusers` WHERE `emailaddress`=:emailaddress");
-         $stmtSel->bindValue(':emailaddress', $emailaddress, PDO::PARAM_STR);
-         
-         // $this->log("Function->AddUser: Prepare Statement: ".current($stmtSel));
-         $stmtSel->execute();
-         
-          // $this->log("Function->AddUser:  Call execute");
-         $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);
-         
-        $params=array(':lastname'     => $lastname,
-                      ':firstname'    => $firstname, 
-                      ':emailaddress' => $emailaddress,
-                      ':phonenumber'  => $phonenumber, 
-                      ':gender'       => $gender, 
-                      ':username'     => $lastname.".".$firstname,
-                      ':userpassword' => $userpassword,
-                      ':active'       => 1,
-                      ':groupid'      => $selectUsergroup,
-                      ':createdON'    =>$this->dateToday,
-                      ':createdBY'    =>  $this->userid);
-        
-        $stmtInst= $this->db->pdo->prepare("INSERT INTO `tbusers`(`lastname`, `firstname`, `emailaddress`, `phonenumber`, `gender`,"
-                . " `username`, `userpassword`, `active`, `groupid`, `createdON`, `createdBY`) "
-                . "VALUES (:lastname,:firstname,:emailaddress,:phonenumber,:gender,:username,:userpassword,:active,:groupid,:createdON,:createdBY)");
-        
-        // $this->log("Function->AddUser: Prepare Statement: ".current($stmtInst));
-       if(count($num_rows)<=0)
-        {  
-        $stmtInst->execute($params);
-        // $this->log("Function->AddUser:  Call execute");
-        $affected_rows = $stmtInst->rowCount();
-        
-            if($affected_rows>0){
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-
-          }
-        }
-        catch (PDOException $e) {
-//            $this->log("Function->AddUser:  PDOException e [] ".$e->getMessage());            
-            if ($e->getCode() === 1062) {
-                $success = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-             // $this->log("Function->AddUser: End....");
-        return $success;   
-}
+ 
 function hashPIN($pin){
   // $base64  = base64_encode($pin);
   // $encrypt = hash_hmac('SHA128', $base64, 'mysecreto');
@@ -1686,82 +1354,6 @@ function hashPIN($pin){
 
 }
 
-function ClientRegistration($lastname,$firstname,$phonenumber,$emailaddress,$country,$gender){
-    $success = -1;            
-      try {
-        
-        $userpassword = $this->hashPIN(mt_rand(100000, 999999));
-        $clientid = str_shuffle(mt_rand(1000, 999));
-
-        $stmtSel = $this->db->pdo->prepare("SELECT `userid` FROM `tbusers` WHERE `emailaddress`=:emailaddress");
-        $stmtSel->bindValue(':emailaddress', $emailaddress, PDO::PARAM_STR);
-         
-        $stmtSel->execute();
-         
-        $num_rows = $stmtSel->fetchAll(PDO::FETCH_ASSOC);
-
-        $params    = array( ':gender' =>$gender,
-                            ':clientid'    => $clientid,
-                            ':lastname'     => $lastname,
-                            ':firstname'    => $firstname, 
-                            ':emailaddress' => $emailaddress,
-                            ':phonenumber'  => $phonenumber, 
-                            ':country'       => $country, 
-                            ':username'     => strtolower($lastname.".".$firstname),
-                            ':userpassword' => $userpassword,
-                            ':active'       => 0,
-                            ':groupid'      => 2,
-                            ':createdON'    =>  $this->dateToday,
-                            ':createdBY'    =>  1,
-                            ':user_type'    =>  'Client');
-     
-        $stmtInst = $this->db->pdo->prepare("INSERT INTO `tbusers`(`lastname`, `firstname`, `emailaddress`, `phonenumber`, `country`,"
-                . " `username`, `userpassword`, `active`, `groupid`, `createdON`, `createdBY`,`user_type`,clientid,gender) "
-                . "VALUES (:lastname,:firstname,:emailaddress,:phonenumber,:country,:username,:userpassword,:active,:groupid,:createdON,:createdBY,:user_type,:clientid,:gender)");
-        
-       if(count($num_rows)<=0)
-        {  
-        $stmtInst->execute($params);
-        $affected_rows = $stmtInst->rowCount();
-        
-       if($affected_rows>0){
-
-              $email_from ='no-reply@gardebucks.com';
-              $bcc ='veesirleo@gmail.com';
-              $name_from = 'Admin';
-              $email   = $emailaddress;             
-              $subject   = 'Congratulations!, Account created Successfully';
-              $message    = "Dear $lastname.".".$firstname, 
-
-               Thank you Jacob Petro for creating an account with Gradebucks. We assure you of our professional services at all times. Below are your login details:
-               link:www.gradebucks.com
-               username:$lastname.".".$firstname 
-               password: $userpassword
-
-                  Yours Faithfully,
-                  $name_from,
-                  Gradebucks";
-
-            $this->sendEmail($email_from,$name_from,$email, $subject, $message,null);
-            $success       = 'Succsesfull';
-            }
-            else{
-               $success = 'Failed';
-            }
-
-          }
-        }
-        catch (PDOException $e) {
-        
-            if ($e->getCode() === 1062) {
-                $success = $e;
-            } 
-            else {
-                 $success = $e;
-            }
-        }
-        return $success;   
-}
 function get_createdby($email_address){
     $stmtSel_userid = $this->db->pdo->prepare("SELECT `userid` FROM `tbusers` WHERE `emailaddress`=:emailaddress");
     $stmtSel_userid->bindValue(':emailaddress', $email_address, PDO::PARAM_STR);
@@ -2326,9 +1918,8 @@ function save($table,$post_data){
          
         if($post_data_size>0){           
          foreach ($post_data as $key => $value) {
-            $params[':'.$key.'']= $value;
+            $params[':'.$key.'']= trim($value);
          } 
-//         print_r($params); 
          }
     $query = "INSERT INTO ".$table."(";  
     $columns = '';
@@ -2352,11 +1943,11 @@ function save($table,$post_data){
         }
        $count = $count+1;                
     }
-     $query = $query .$columns.')  ';
-     $query = $query .'VALUES('.$values.')';  
-        $stmtInst = $this->db->pdo->prepare($query);  
-        $stmtInst->execute($params);
-        $affected_rows = $stmtInst->rowCount();
+    $query = $query .$columns.')  ';
+    $query = $query .'VALUES('.$values.')';  
+    $stmtInst = $this->db->pdo->prepare($query);  
+    $stmtInst->execute($params);
+    $affected_rows = $stmtInst->rowCount();
         
        if($affected_rows>0){
             $success       = 'Succsesfull';

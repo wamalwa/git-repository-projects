@@ -47,7 +47,7 @@
   </div> 
   <div class="row"> <br>
     <div class="form-group col-md-12">                           
-        <button type="submit" class="btn btn-primary btn-block btn-flat btn-lg" id="saveModule"><?= $actiontButton ?></button> 
+        <button type="submit" class="btn btn-primary btn-block btn-flat btn-lg" id="btnSubmitButton"><?= $actiontButton ?></button> 
     </div>
     </div>
     </form>
@@ -80,3 +80,12 @@
  </div> 
     
 </div>
+
+<script type="text/javascript">
+ $(document).ready(function(){
+    
+        $('#btnSubmitButton').click(function(){
+           return confirm('Please confirm this Submission?');
+        }) ; 
+}) ;
+</script>

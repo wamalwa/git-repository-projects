@@ -3,7 +3,7 @@
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">    
-        <img src="images/logo.png" style="width: 120px;height: 80px"><a href="#"><?php echo $page_desc; ?> </a>
+        <img src="images/logo.png" style="width: 200px;height: 80px"> &nbsp;<span><a href="#" style="font-size: 1.8em;"><?php echo $page_desc; ?> </a>
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear">
@@ -79,7 +79,7 @@ else{?>
   <header id="header" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div id="logo" class="fl_left">
-    <img src="images/logo.png" style="width: 120px;height: 80"> &nbsp;<span><a href="#"><?php echo $page_desc; ?> </a>
+    <img src="images/logo.png" style="width: 200px;height: 80px"> &nbsp;<span><a href="#" style="font-size: 1.8em;"><?php echo $page_desc; ?> </a>
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear">          

@@ -105,25 +105,43 @@ case 'AddNewModule':
            header($referer);
       }
     break;
+    
 case 'AddNewService': 
          //AddNewService     
        //check input
      if(isset($_POST['servicename'])===true && !empty($_POST['servicename'])===true) {
-
-            $servicename         = trim($_POST['servicename']);
-            $serviceDescription  =  trim($_POST['serviceDescription']);
-            $response         = $fn->AddNewService($servicename,$serviceDescription);
-          }
+                
+       $table = 'tbservices';
+       $servicename = $_POST['servicename'];
+       $is_new =  $fn->find_count($table," `servicename` = '".$servicename."'");
+      
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }else{
+       unset($_POST['actiontype']); 
+       unset($_POST['id']);
+       $_post_data = $_POST;
+       
+       $other_data['active'] =1;
+       $other_data['createdon'] =  $fn->dateToday;
+       $other_data['createdby']=  $fn->userid;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+                    
       if($response==='Succsesfull'){
           $responseMessage      = array('status'=>'success','data'=> 'New Service '.$servicename  .' Added Successfully!');
            $_SESSION['message'] = $responseMessage;
            header($referer);
       }
       else{
-          $responseMessage       = array('status'=>'danger','data'=> 'Failed to Add New Service. '. $response);
+           $responseMessage       = array('status'=>'danger','data'=> 'Failed to Add New Service. '. $response);
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
+     }
+ }
      break;
 case 'UpdateService':
      //UpdateService     
@@ -151,10 +169,24 @@ case 'AddNewPaperType':
        //check input
      if(isset($_POST['typename'])===true && !empty($_POST['typename'])===true) {
 
-            $typename         = trim($_POST['typename']);
-            $typedescription  =  trim($_POST['typedescription']);
-            $response         = $fn->AddNewPaperType($typename,$typedescription);
-          }
+       $table = 'tbpapertypes';
+       $typename = $_POST['typename'];
+       $is_new =  $fn->find_count($table," `typename` = '".$typename."'");
+          
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }else{
+       unset($_POST['actiontype']); 
+       unset($_POST['id']);
+       $_post_data = $_POST;
+      
+       $other_data['createdon'] =  $fn->dateToday;
+       $other_data['createdby']=  $fn->userid;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+       
       if($response==='Succsesfull'){
           $responseMessage      = array('status'=>'success','data'=> 'New Paper Type '.$typename  .' Added Successfully!');
            $_SESSION['message'] = $responseMessage;
@@ -165,7 +197,8 @@ case 'AddNewPaperType':
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
-
+    }
+  }
       break;
   //UpdatePaperType 
 case 'UpdatePaperType':
@@ -194,10 +227,25 @@ case 'AddNewSubjectArea':
        //check input
      if(isset($_POST['subjectname'])===true && !empty($_POST['subjectname'])===true) {
 
-            $subjectname         = trim($_POST['subjectname']);
-            $subjectdescription  =  trim($_POST['subjectdescription']);
-            $response         = $fn->AddNewSubjectArea($subjectname,$subjectdescription);
-          }
+       $table = 'tbsubjectarea';
+       $subjectname = $_POST['subjectname'];
+       $is_new =  $fn->find_count($table," `subjectname` = '".$subjectname."'");
+          
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }
+     else{
+       unset($_POST['actiontype']); 
+       unset($_POST['id']);
+       $_post_data = $_POST;
+      
+       $other_data['createdon'] =  $fn->dateToday;
+       $other_data['createdby']=  $fn->userid;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+                
       if($response==='Succsesfull'){
           $responseMessage      = array('status'=>'success','data'=> 'New Subject Area '.$subjectname  .' Added Successfully!');
            $_SESSION['message'] = $responseMessage;
@@ -208,7 +256,8 @@ case 'AddNewSubjectArea':
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
-
+    }
+   }
       break;
 //UpdateSubjectArea
 case 'UpdateSubjectArea':  
@@ -235,13 +284,26 @@ break;
 case 'AddNewCountry':      
        //check input
      if(isset($_POST['country_name'])===true && !empty($_POST['country_name'])===true) {
-
-            $country_name  = trim($_POST['country_name']);
-            $currencycode  =  trim($_POST['currencycode']);
-            $currencyname  =  trim($_POST['currencyname']);
-            $country_description  =  trim($_POST['country_description']);
-            $response         = $fn->AddNewCountry($country_name,$currencycode,$currencyname,$country_description);
-          }
+         
+       $table = 'tbcountries';
+       $country_name = $_POST['country_name'];
+       $is_new =  $fn->find_count($table," `country_name` = '".$country_name."'");
+          
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }
+     else{
+       unset($_POST['actiontype']); 
+       unset($_POST['id']);
+       $_post_data = $_POST;
+      
+       $other_data['createdon'] =  $fn->dateToday;
+       $other_data['createdby']=  $fn->userid;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+       
       if($response==='Succsesfull'){
           $responseMessage      = array('status'=>'success','data'=> 'New Country '.$country_name  .' Added Successfully!');
            $_SESSION['message'] = $responseMessage;
@@ -252,7 +314,9 @@ case 'AddNewCountry':
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
-
+     }
+     
+  }
       break;
  // UpdateCountry
 case 'UpdateCountry':
@@ -282,11 +346,26 @@ break;
 case 'AddNewAcademicLevel':      
        //check input
      if(isset($_POST['levelname'])===true && !empty($_POST['levelname'])===true) {
-
-            $levelname         = trim($_POST['levelname']);
-            $levelDescription  =  trim($_POST['levelDescription']);
-            $response         = $fn->AddNewAcademicLevel($levelname,$levelDescription);
-          }
+       
+       $table = 'tbacademiclevels';
+       $levelname = $_POST['levelname'];
+       $is_new =  $fn->find_count($table," `levelname` = '".$levelname."'");
+          
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }
+     else{
+       unset($_POST['actiontype']); 
+       unset($_POST['id']);
+       $_post_data = $_POST;
+      
+       $other_data['createdon'] =  $fn->dateToday;
+       $other_data['createdby']=  $fn->userid;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+       
       if($response==='Succsesfull'){
           $responseMessage      = array('status'=>'success','data'=> 'New Academic Level '.$levelname  .' Added Successfully!');
            $_SESSION['message'] = $responseMessage;
@@ -297,7 +376,8 @@ case 'AddNewAcademicLevel':
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
-
+     }
+}
       break;  
  //UpdateAcademicLevel
 case 'UpdateAcademicLevel':  
@@ -324,12 +404,26 @@ break;
 case 'AddNewUrgencyLevel':     
        //check input
      if(isset($_POST['urgency_value'])===true && !empty($_POST['urgency_value'])===true) {
-
-            $urgency_value         = trim($_POST['urgency_value']);
-            $urgency_name  =  trim($_POST['urgency_name']);
-            $desscription  =  trim($_POST['desscription']);
-            $response         = $fn->AddNewUrgencyLevel($urgency_value,$urgency_name,$desscription);
-          }
+       $table = 'tburgencies';
+       $urgency_value = $_POST['urgency_value'];
+       $urgency_name = $_POST['urgency_name'];
+       $is_new =  $fn->find_count($table,"  `urgency_value` = '$urgency_value' AND `urgency_name` = '$urgency_name'");
+          
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }
+     else{
+       unset($_POST['actiontype']); 
+       unset($_POST['id']);
+       $_post_data = $_POST;
+      
+       $other_data['createdon'] =  $fn->dateToday;
+       $other_data['createdby']=  $fn->userid;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+       
       if($response==='Succsesfull'){
           $responseMessage      = array('status'=>'success','data'=> 'New Urgency Details '.$urgency_value  .' '.$urgency_name.' Added Successfully!');
            $_SESSION['message'] = $responseMessage;
@@ -340,7 +434,8 @@ case 'AddNewUrgencyLevel':
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
-
+     }
+  }
       break;
 case 'UpdateUrgencyLevel':    
        //check input
@@ -448,19 +543,56 @@ echo json_encode($responseMessage);
 case 'clientRegistration':      
    //check input
  if(!empty($_POST['lastname'])===true) {
-
-        $lastname         = trim($_POST['lastname']);
-        $firstname        = trim($_POST['firstname']);
-        $phonenumber      = trim($_POST['phonenumber']);
-        $emailaddress     = trim($_POST['emailaddress']);
-        $country          = trim($_POST['country']);
-        $gender           = trim($_POST['gender']);
-        $response         = $fn->ClientRegistration($lastname,$firstname,$phonenumber,$emailaddress,$country,$gender);
-
-      }
-
+       
+       $table = 'tbusers';
+       $emailaddress = $_POST['emailaddress'];
+       $is_new =  $fn->find_count($table,"  `emailaddress` = '$emailaddress'");
+          
+     if($is_new>0){
+        $responseMessage       = array('status'=>'danger','data'=> 'Sorry the record already exist in the system!');
+        $_SESSION['message'] = $responseMessage; 
+        header($referer);
+     }
+     else{
+       unset($_POST['actiontype']); 
+       $_post_data = $_POST;
+       $firstname = $_POST['firstname'];
+       $lastname = $_POST['lastname'];
+       
+        $userpassword = $fn->hashPIN(mt_rand(100000, 999999));
+        $clientid = str_shuffle(mt_rand(1000, 999));
+        
+       $other_data['username'] =  strtolower($lastname.".".$firstname);
+       $other_data['userpassword']=  $userpassword;
+       $other_data['active'] =  0;
+       $other_data['groupid']=  2;
+       $other_data['user_type']=  'Client';
+       $other_data['clientid']= $clientid;
+       $other_data['createdON'] =  $fn->dateToday;
+       $other_data['createdBY']=  1;
+       $post_data = array_merge($_post_data, $other_data);
+       $response = $fn->save($table,$post_data);
+       
       if($response==='Succsesfull'){
-          $responseMessage       = array('status'=>'success','data'=> 'Thank you for Registering with Us,your login credentials have been sent to your email. Check your email to continue.');
+          
+              $email_from ='no-reply@gardebucks.com';
+              $bcc ='veesirleo@gmail.com';
+              $name_from = 'Admin';
+              $email   = $emailaddress;             
+              $subject   = 'Congratulations!, Account has been created Successfully';
+              $message    = "Dear $lastname.".".$firstname, 
+                  
+               Thank you Jacob Petro for creating an account with Gradebucks. We assure you of our professional services at all times. Below are your login details:
+               link:www.gradebucks.com
+               username:$lastname.".".$firstname 
+               password: $userpassword
+
+                  Yours Faithfully,
+                  $name_from,
+                  Gradebucks";
+
+          $fn->sendEmail($email_from,$name_from,$email, $subject, $message,null);
+          $responseMessage       = array('status'=>'success','data'=> 'Thank you  for Registering with Us,your login credentials have been sent to your email. Check your email to continue.');
            $_SESSION['message'] = $responseMessage; 
            header($rootUrl.'common/thankyou&p=Congratulations!');
       }
@@ -469,6 +601,8 @@ case 'clientRegistration':
            $_SESSION['message'] = $responseMessage; 
            header($referer);
       }
+     }
+ }
       break;
 //MyNewOrder  
 case 'MyNewOrder':     
