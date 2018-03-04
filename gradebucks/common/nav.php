@@ -17,8 +17,6 @@ if($_SESSION['userdetails']['user_type']==='Admin'){
         <li><?php  $fn->page_nav(array('url'=>'#','name'=>'Manage Orders','active'=>'dropdown','visible'=>1)); ?>
           <ul>           
             <?php  $fn->page_nav(array('url'=>'pages/viewneworders','name'=>'View Orders','active'=>$page,'visible'=>1)); ?>
-            <?php // $fn->page_nav(array('url'=>'pages/approveposts','name'=>'Approve Posts','active'=>$page,'visible'=>1)); ?>        
-            <?php  //$fn->page_nav(array('url'=>'pages/viewposts','name'=>'View Posts','active'=>$page,'visible'=>1)); ?>
           </ul>
         </li>
          <li><?php  $fn->page_nav(array('url'=>'#','name'=>'Clients','active'=>'dropdown','visible'=>1)); ?>
@@ -37,10 +35,10 @@ if($_SESSION['userdetails']['user_type']==='Admin'){
           </ul>
         </li>
 <!-- Profiles -->
-        <li><?php  $fn->page_nav(array('url'=>'#','name'=>'User Profiles','active'=>'dropdown','visible'=>1)); ?>
-          <ul> 
-            <?php  $fn->page_nav(array('url'=>'pages/addmodule','name'=>'Add New Module','active'=>$page,'visible'=>1)); ?>
-            <?php  $fn->page_nav(array('url'=>'pages/assignroles','name'=>'Assign Roles','active'=>$page,'visible'=>1)); ?>
+        <li><?php  $fn->page_nav(array('url'=>'#','name'=>'User Groups','active'=>'dropdown','visible'=>1)); ?>
+          <ul>
+            <?php  $fn->page_nav(array('url'=>'pages/assignroles','name'=>'Assign Roles','active'=>$page,'visible'=>1)); ?> 
+            <?php  $fn->page_nav(array('url'=>'pages/addusergroup','name'=>'Add User Group','active'=>$page,'visible'=>1)); ?>
             </ul>
         </li>  
     <!-- System Admin     -->

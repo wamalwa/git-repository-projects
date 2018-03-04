@@ -1,6 +1,6 @@
 <?php 
     if(isset($id)){
-     $actiontCaption = '<a href="index.php?r=pages/countries&p=Countries">Edit Country id :'.$id.'</a>'; 
+     $actiontCaption = '<a href="index.php?r=pages/countries&p=Countries">Edit Country id :'.$id.'<span class="pull-right btn btn-success">New</span></a>'; 
      $model   =  $fn->find_countries(null,"contryid=$id")[0];
      $actiontValue   = 'UpdateCountry';
      $actiontButton  = 'Update Country';
@@ -13,7 +13,7 @@
     }
 ?>
  <div class="panel panel-primary col-md-4 col-sm-12" style="padding:0px">
-  <div class="panel-heading">
+  <div class="panel-heading" style="padding-bottom: 20px;">
     <h3 class="panel-title" style="font-size: 1.2em"><?= $actiontCaption ?></h3>
   </div>
   <div class="panel-body">
@@ -82,7 +82,7 @@
        <td style='width:200px'>" . $trdata["country_description"] . "</td>
        <td>".  $trdata["currencycode"] . "</td>
        <td>" . $trdata["currencyname"] . "</td> 
-       <td><a href='index.php?r=pages/countries~id=" . $trdata['contryid'] . "&p=Edit Country : ".$trdata['country_name']."'><button type='submit' class='btn btn-primary' id='btnpaywith_"
+       <td><a href='index.php?r=pages/countries~id=" . $trdata['contryid'] . "&p=Edit Country'><button type='submit' class='btn btn-primary' id='btnpaywith_"
                .$key."' style='font-size: 0.9em'>Edit Details</button></a> </td>";              
        echo  "</tr>";
     }   ?>

@@ -1,6 +1,6 @@
 <?php 
     if(isset($id)){
-     $actiontCaption = '<a href="index.php?r=pages/services&p=Services">Edit Service id :'.$id.'</a>';              
+     $actiontCaption = '<a href="index.php?r=pages/services&p=Services">Edit Service id :'.$id.'<span class="pull-right btn btn-success">New</span></a>';              
      $model   = $fn->find_all_services(null,"serviceid=$id")[0]; 
      $actiontValue   = 'UpdateService';
      $actiontButton  = 'Update Service';
@@ -14,7 +14,7 @@
 ?>
 
 <div class="panel panel-primary col-md-4 col-sm-12" style="padding:0px">
-  <div class="panel-heading">
+  <div class="panel-heading" style="padding-bottom: 20px;">
       <h3 class="panel-title" style="font-size: 1.2em"><?= $actiontCaption ?></h3>
   </div>
   <div class="panel-body">
@@ -77,7 +77,7 @@
        <td>".  $trdata['createdon'] . "</td>
        <td>" . $trdata['createdby'] . "</td> 
        <td>" . $trdata['active'] . "</td>
-       <td><a href='index.php?r=pages/services~id=" . $trdata['serviceid'] . "&p=Edit Service : ".$trdata['servicename']."'><button type='submit' class='btn btn-primary' id='btnpaywith_".$key."' style='font-size: 0.9em';>Edit Details</button></a></td>";              
+       <td><a href='index.php?r=pages/services~id=" . $trdata['serviceid'] . "&p=Edit Service'><button type='submit' class='btn btn-primary' id='btnpaywith_".$key."' style='font-size: 0.9em';>Edit Details</button></a></td>";              
        echo  "</tr>";
     }   ?>
    </tbody>

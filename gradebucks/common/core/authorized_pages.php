@@ -15,6 +15,7 @@ function check_authorized_pages($page){
             'testimonials',
             'urgencies',
             'newuser',
+            'addusergroup',
             'manageusers',
             'changepassword');
         

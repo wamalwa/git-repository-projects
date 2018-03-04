@@ -1,7 +1,7 @@
 <?php
 if(isset($_SESSION['userdetails']['userid'])){
 
-    $all_orders   = $fn->find_users("user_type='Client' ORDER BY `userid` DESC    LIMIT 0 , 1000"); 
+    $all_orders   = $fn->find_users("user_type='Client' ORDER BY `userid` DESC "); 
      $model   = '';
      foreach ($all_orders as $key => $trdata){
         $model .= '<tr>';

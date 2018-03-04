@@ -1,6 +1,6 @@
 <?php 
     if(isset($id)){
-     $actiontCaption = '<a href="index.php?r=pages/academiclevels&p=Academic Levels">Edit Academic Level id :'.$id.'</a>';              
+     $actiontCaption = '<a href="index.php?r=pages/academiclevels&p=Academic Levels">Edit Academic Level id :'.$id.'<span class="pull-right btn btn-success">New</span></a>';              
      $model   = $fn->find_academiclevels(null,"levelid=$id")[0]; 
      $actiontValue   = 'UpdateAcademicLevel';
      $actiontButton  = 'Update Academic Level';
@@ -12,7 +12,7 @@
     }
 ?> 
 <div class="panel panel-primary col-md-4 col-sm-12" style="padding:0px">
-  <div class="panel-heading">
+  <div class="panel-heading" style="padding-bottom: 20px;">
     <h3 class="panel-title" style="font-size: 1.2em"><?= $actiontCaption ?></h3>
   </div>
   <div class="panel-body">
@@ -69,7 +69,7 @@
        <td style='width:200px'>" . $trdata['levelDescription'] . "</td>
        <td>".  $trdata['createdon'] . "</td>
        <td>" . $trdata['createdby'] . "</td>
-       <td><a href='index.php?r=pages/academiclevels~id=" . $trdata['levelid'] . "&p=Edit Academic Level : ".$trdata['levelname']."'><button type='submit' class='btn btn-primary' id='btnpaywith_".$key."' style='font-size: 0.9em'>Edit Details</button></a> </td>";              
+       <td><a href='index.php?r=pages/academiclevels~id=" . $trdata['levelid'] . "&p=Edit Academic Level'><button type='submit' class='btn btn-primary' id='btnpaywith_".$key."' style='font-size: 0.9em'>Edit Details</button></a> </td>";              
        echo  "</tr>";
     }   ?>
    </tbody>

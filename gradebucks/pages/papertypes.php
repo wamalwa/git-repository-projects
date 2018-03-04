@@ -1,6 +1,6 @@
  <?php 
     if(isset($id)){
-     $actiontCaption = '<a href="index.php?r=pages/papertypes&p=Paper Types">Edit Paper Type id :'.$id.'</a>';              
+     $actiontCaption = '<a href="index.php?r=pages/papertypes&p=Paper Types">Edit Paper Type id :'.$id.'<span class="pull-right btn btn-success">New</span></a>';              
      $model   = $fn->find_paper_types(null,"typeid=$id")[0]; 
      $actiontValue   = 'UpdatePaperType';
      $actiontButton  = 'Update Paper Type';
@@ -13,7 +13,7 @@
     
 ?>
 <div class="panel panel-primary col-md-4 col-sm-12" style="padding:0px">
-  <div class="panel-heading">
+  <div class="panel-heading" style="padding-bottom: 20px;">
     <h3 class="panel-title" style="font-size: 1.2em"><?= $actiontCaption ?></h3>
   </div>
   <div class="panel-body">
@@ -70,7 +70,7 @@
        <td style='width:200px'>" . $trdata['typedescription'] . "</td>
        <td>".  $trdata['createdon'] . "</td>
        <td>" . $trdata['createdby'] . "</td>
-       <td><a href='index.php?r=pages/papertypes~id=" . $trdata['typeid'] . "&p=Edit Paper Type : ".$trdata['typename']."'><button type='submit' class='btn btn-primary' id='btnpaywith_".$key."' style='font-size: 0.9em'>Edit Details</button></a> </td>";              
+       <td><a href='index.php?r=pages/papertypes~id=" . $trdata['typeid'] . "&p=Edit Paper Type'><button type='submit' class='btn btn-primary' id='btnpaywith_".$key."' style='font-size: 0.9em'>Edit Details</button></a> </td>";              
        echo  "</tr>";
     }   ?>
    </tbody>
