@@ -1,0 +1,23 @@
+{
+  "name": "bull",
+  "version": "1.0.0",
+  "description": "Queue Execution Engine",
+  "main": "bull.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julius Muruthi",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.1.0",
+    "bull-arena": "^2.2.0",
+    "cluster": "",
+    "express": "~4.15.2",
+    "http": "0.0.0",
+    "ical-toolkit": "^1.0.9",
+    "nodemailer": "^4.1.0",
+    "sendmail": "^1.2.0",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}

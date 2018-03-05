@@ -1,0 +1,18 @@
+"transactions":[
+	{"transtype":"BALANCE_ENQUIRY","status":"ACTIVE","query":"select * from tbtest where id=@ID and NAME=@NAME",
+		"params":[
+		{"name":"ID","type":"Int","value":"@value"},{"name":"NAME","type":"VarChar(20)","value":"@value"}
+		]},
+	{"transtype":"MINISTATEMENT","status":"ACTIVE","query":"POSTTRANSACTIONS",
+	"params":[
+		{"name":"ID","type":"core.sql.Int","value":"@value"},{"name":"NAME","type":"core.sql.VarChar(20)","value":"@value"}
+		]},
+	{"transtype":"LOGIN","status":"ACTIVE","query":"POSTTRANSACTIONS",
+	"params":[
+		{"name":"ID","type":"core.sql.Int","value":"@value"},{"name":"NAME","type":"core.sql.VarChar(20)","value":"@value"}
+		]},
+	{"transtype":"GETACCOUNTDETAILS","status":"ACTIVE","query":"SELECT * FROM VW_ALLCUSTOMERS WHERE MWALLETACCOUNT=@CUSTOOMERNO",
+	"params":[
+		{"name":"CUSTOOMERNO","type":"core.sql.VarChar(12)"}
+		]}
+]

@@ -1,0 +1,6 @@
+"queues" : {
+		"name": "video transcoding",
+		"port": 6379,
+		"host": "127.0.0.1",
+		"hostId": "MyServer"
+}

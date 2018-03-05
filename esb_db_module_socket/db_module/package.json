@@ -1,0 +1,18 @@
+{
+  "name": "db_module",
+  "version": "1.0.0",
+  "description": "This module is for Database connection and query execution, It reads the configs and query and its params from a file and proces it as given. It has core function and processors. All possible queries are in the xml file.",
+  "main": "processor.js",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.4",
+    "mssql": "^4.0.4",
+    "string-template": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Jacob Petro Ojwang",
+  "license": "ISC"
+}
